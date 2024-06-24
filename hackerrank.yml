@@ -1,0 +1,10 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  ide_config:
+    default_open_files:
+      - src/main.js
+    project_menu:
+      run: npm run dev
+      install: npm install
+      test: npm test
